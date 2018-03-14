@@ -4,7 +4,7 @@
 
 from ggrocket import Rocket, Planet
 from math import radians, sqrt
-from ggame import Slider
+from ggmath import Slider
 
 tz = Slider((10,400), 0, 5, 0, positioning="physical")
 
