@@ -8,8 +8,8 @@ from ggmath import Slider
 
 earth = Planet(viewscale=0.01)
 
-Re = 6.371E6
-Me = 5.972E24
+Re = 1.7374E6
+Me = 7.35E22
 G = 6.674E-11
 
 Ve=sqrt(2*Me*G/Re)
