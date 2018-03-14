@@ -4,7 +4,7 @@
 
 from ggrocket import Rocket, Planet
 
-date = {}
+data = {}
 data['thrust']=0
 
 def trust():
