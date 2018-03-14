@@ -3,16 +3,17 @@
 #rocket1.py - first rocket program
 
 from ggrocket import Rocket, Planet
+from ggame import *
 
 data = {}
 data['thrust']=0
 
-def trust():
+def thrust():
     return data['thrust']
 
 
 earth = Planet(color=(0x9aa2af), radius=1737400, planetmass=73480000000000000000000, viewscale=0.00002)
-rocket = Rocket(earth, altitude=100000, velocity=1632, timezoom=3, thrust=thrust)
+rocket = Rocket(earth, altitude=0, velocity=0, timezoom=0.5, thrust = thrust)
 
 def upThrust(event):
     data['thrust']+=0.2
