@@ -43,7 +43,7 @@ def StartRocket():
         RocketStarted = True
         StartTime = rocket.shiptime
 
-tz = Slider((10,380), 0, 5, 0, positioning="physical")
+tz = Slider((10,400), 0, 5, 0, positioning="physical")
 
 start = InputButton((10,400), "START", StartRocket, positioning="physical", size=15, timezoom=tz)
 
