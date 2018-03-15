@@ -43,9 +43,9 @@ def StartRocket():
         RocketStarted = True
         StartTime = rocket.shiptime
 
-tz = Slider((10,400), 0, 5, 0, positioning="physical")
+tz = Slider((10,300), 0, 5, 0, positioning="physical")
 
-start = InputButton((10,400), "START", StartRocket, positioning="physical", size=15, timezoom=tz)
+start = InputButton((10,400), "START", StartRocket, positioning="physical", size=15)
 
-rocket = Rocket(earth, thrust=GetThrust, mass=mp+me)
+rocket = Rocket(earth, thrust=GetThrust, mass=mp+me, timezoom=tz)
 earth.run(rocket)
