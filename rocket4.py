@@ -24,7 +24,7 @@ mp2 = 92670
 Ftotal2 = 8.01E5
 tburn2 = 372
 
-mep = 13150
+mep = 5000
 
 vmax1 = Ftotal1*tburn1/mp1*log((me1+mp1+me2+mp2+mep)/(me1+me2+mp2+mep))
 vmax2 = Ftotal2*tburn2/mp2*log((me2+mp2+mep)/(me2+mep))
