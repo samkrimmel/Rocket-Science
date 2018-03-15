@@ -81,7 +81,7 @@ def GetStatus():
     global Stage1Started
     global Stage2Started
     global PayloadLaunched
-    if Stage1Launched:
+    if Stage1Started:
         return "STAGE 1 FIRING"
     elif Stage2Started:
         return "STAGE 2 FIRING"
